@@ -1,0 +1,19 @@
+name = "yangweb"
+main = ".open-next/worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+workers_dev = true
+assets = { directory = ".open-next/assets", binding = "ASSETS" }
+
+[[routes]]
+pattern = "blockeep.com/*"
+zone_name = "blockeep.com"
+
+[[routes]]
+pattern = "www.blockeep.com/*"
+zone_name = "blockeep.com"
+
+[[kv_namespaces]]
+binding = "YANGWEB_KV"
+id = "1489d92689c042e4b7d672fbb8ff3f4a"
