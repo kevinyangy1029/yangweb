@@ -23,6 +23,13 @@ export const seedData: ToolItem[] = [
     section: "tools",
   },
   {
+    id: "polymarket-live",
+    title: "Polymarket Live",
+    description: "Live trading status, positions, P&L and recent orders",
+    url: "https://live.blockeep.com",
+    section: "tools",
+  },
+  {
     id: "4",
     title: "DevDocs",
     description: "API documentation browser",
