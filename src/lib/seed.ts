@@ -30,6 +30,13 @@ export const seedData: ToolItem[] = [
     section: "tools",
   },
   {
+    id: "bian-dashboard",
+    title: "Bian Arbitrage Scanner",
+    description: "Live Binance bStocks and TradFi perpetual arbitrage scanner",
+    url: "https://bian.blockeep.com",
+    section: "tools",
+  },
+  {
     id: "4",
     title: "DevDocs",
     description: "API documentation browser",
